@@ -30,67 +30,37 @@ Bubble charts show the data in the form of a circle. The values of the variables
  A waterfall chart is used to show how initial values are increasing and decreasing gradually by a series of values to arrive at the final value. 
 15. Maps :  
 Maps are divided into three types
-*Regional Maps
-*Point Maps
-*Flow Maps
-A) Regional Maps: 
-Regional maps use different colors to represent the distribution of a specific range of values on the map. 
-B) Point Maps
-A point map is used to represent the geographical distribution of data by plotting the same size points on the geographical background. It helps the user to grasp the overall distribution of the data, but it is a tough task if you want to observe specific data.
- 
-C) Flow Maps
-A flow map is a type of map that is particularly designed to show specific themes connected with a particular geographical area. It is used in cartography to show the movements of the objects between two or more areas. 
-14. Slicers Charts
+* Regional Maps : Regional maps use different colors to represent the distribution of a specific range of values on the map.
+* Point Maps : A point map is used to represent the geographical distribution of data by plotting the same size points on the geographical background. It helps the user to grasp the overall distribution of the data, but it is a tough task if you want to observe specific data.
+* Flow Maps : A flow map is a type of map that is particularly designed to show specific themes connected with a particular geographical area. It is used in cartography to show the movements of the objects between two or more areas. 
+14. Slicers Charts : 
 Slicers charts are visual filters. Using slicers, you can filter or sort your data by clicking on the type of data you want. In the below example, you can see all-region sales. In case if you want to see particular region sales, then click on that region, and it shows the specific region's sales. 
-15. Tree Maps
+15. Tree Maps : 
 Treemaps display hierarchical data set in a nested rectangle. At each level, hierarchy is represented by a color. The size of the space in the rectangle depends on the data values. The rectangular boxes are arranged in size from top left to bottom right.
 
+ **Some Basic differences between important graphs**
  
+|Bar chart | Column chart|
+|----------|--------------------|
+|Horizontal  Orientation | Vertical orientation |
 
+|Stacked |100 % Stacked|Clustered|
+|-------|--------|--------|
+|Parts to Whole Comparison: Stacked bar charts are ideal for visualizing the composition of a whole across different categories. Each bar represents the total, and segments within the bar represent the proportion of each category.|Relative Proportions: 100% stacked bar charts are used when you want to compare the relative proportions of different categories across groups or time period. |Comparison Between Groups: Clustered bar charts are used to compare values between different groups for the same categories. Each group has its own set of bars, and bars within the same group are clustered together.|
+|Limited Number of Categories: Stacked bar charts work well with a relatively small number of categories to prevent clutter and maintain clarity.|Normalization: These charts normalize the data, making it easier to compare the distribution of categories across different groups or time periods, regardless of differences in sample size.|Large Number of Categories: Clustered bar charts can accommodate a larger number of categories compared to stacked bar charts, as the bars are grouped together rather than stacked on top of each other.|
 
+|Line chart|Area chart|
+|------|-----|
+|Line charts represent data points using lines connecting each point |Area charts fill the area under the line, providing a visual representation of cumulative values.|
+|Line charts emphasize the continuity and direction of trends.|Area charts emphasize the magnitude of change and cumulative values.|
+|Line charts are better for precise trend analysis and identifying individual data point. | Area charts are more suitable for emphasizing overall patterns and proportions.|
 
-
-
-
-
-
-	Bar chart 	Stacked Column chart
-Difference 	Horizontal  Orientation 	Vertical orientation 
-
-	Stacked 	100 % Stacked 	Clustered 
-Use case and Significance 	1.	Parts to Whole Comparison: Stacked bar charts are ideal for visualizing the composition of a whole across different categories. Each bar represents the total, and segments within the bar represent the proportion of each category.
-	Relative Proportions: 100% stacked bar charts are used when you want to compare the relative proportions of different categories across groups or time periods	1.	Comparison Between Groups: Clustered bar charts are used to compare values between different groups for the same categories. Each group has its own set of bars, and bars within the same group are clustered together.
-
-Difference 	1.	Limited Number of Categories: Stacked bar charts work well with a relatively small number of categories to prevent clutter and maintain clarity.
-	1.	Normalization: These charts normalize the data, making it easier to compare the distribution of categories across different groups or time periods, regardless of differences in sample size.
-	1.	Large Number of Categories: Clustered bar charts can accommodate a larger number of categories compared to stacked bar charts, as the bars are grouped together rather than stacked on top of each other.
-
-
-
-
-
-
-Differences 	Line chart 	Area chart
-Representation 
-	Line charts represent data points using lines connecting each point	1.	area charts fill the area under the line, providing a visual representation of cumulative values.
-
-Emphasis 	Line charts emphasize the continuity and direction of trends	Area charts emphasize the magnitude of change and cumulative values.
-Interpretation:	Line charts are better for precise trend analysis and identifying individual data points	Area charts are more suitable for emphasizing overall patterns and proportions.
-
- 
-Ribbon chart	Waterfall chart	Funnel chart
-1.	Comparative Analysis: Ribbon charts are ideal for comparing multiple series or categories across a common axis, such as time.
-	1.	Showing Cumulative Effect: Waterfall charts are used to illustrate the cumulative effect of sequentially occurring positive and negative values on a starting value.	Sales Pipeline Analysis: Funnel charts are commonly used in sales and marketing to visualize the sales pipeline and track the conversion rates at each stage of the sales process.
-1.	Data Distribution: They are used to visualize the distribution of data over time or across categories, particularly when the focus is on the relative proportions of each category.	Financial Analysis: They are commonly used in financial analysis to visualize changes in financial data, such as revenue, expenses, and net profit, over time or across categories	1.	Lead Generation: They are effective for visualizing the progression of leads through different stages of the sales or marketing funnel, from initial contact to conversion.
-1.	Highlighting Trends: Ribbon charts are effective for highlighting trends and patterns in the data, especially when dealing with fluctuating values.
-	1.	Highlighting Contributions: Waterfall charts are effective for highlighting the contributions of different factors to the overall change in a value, making it easy to identify key drivers of change.
-	1.	Performance Analysis: Funnel charts help in analyzing the performance of a process or workflow by visualizing the dropout rates or conversion rates at each stage.
-
-	2.		2.	
-Pie chart and donut chart 
-
-1.	Both are ideal for illustrating the proportions or percentages of different categories within a dataset.
-2.	They are commonly used to compare the contribution of each category to the total.
-
-Differences :
-The most noticeable difference between pie charts and donut charts is the presence of a central hole in donut charts, which can be used to display additional information or simply for aesthetic purposes.
+|Ribbon chart|Waterfall chart|Funnel chart|
+|------|------|-------|
+|Comparative Analysis: Ribbon charts are ideal for comparing multiple series or categories across a common axis, such as time.|Showing Cumulative Effect: Waterfall charts are used to illustrate the cumulative effect of sequentially occurring positive and negative values on a starting value.|Sales Pipeline Analysis: Funnel charts are commonly used in sales and marketing to visualize the sales pipeline and track the conversion rates at each stage of the sales process.|
+|Data Distribution: They are used to visualize the distribution of data over time or across categories, particularly when the focus is on the relative proportions of each category.|Financial Analysis: They are commonly used in financial analysis to visualize changes in financial data, such as revenue, expenses, and net profit, over time or across categories| Lead Generation: They are effective for visualizing the progression of leads through different stages of the sales or marketing funnel, from initial contact to conversion.|
+|Highlighting Trends: Ribbon charts are effective for highlighting trends and patterns in the data, especially when dealing with fluctuating values.|Highlighting Contributions: Waterfall charts are effective for highlighting the contributions of different factors to the overall change in a value, making it easy to identify key drivers of change.|Performance Analysis: Funnel charts help in analyzing the performance of a process or workflow by visualizing the dropout rates or conversion rates at each stage.|
+	
+|Pie chart| Donut chart|
+|-----|----|
+|In a pie chart, there is no space in the center, as the entire area is filled with slices representing different categories or data points.|In donut charts there is  presence of a central hole, which can be used to display additional information or simply for aesthetic purposes.|
